@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>公司理念</title>
+		<link rel="stylesheet" type="text/css" href="css/tongyong.css" />
+		<style>
+			*{margin: 0px;}
+		</style>
+	</head>
+	<body>
+		<img src="img/bg one.jpg" width="100%">
+		<img src="img/10.jpg" width="100%">
+		<img src="img/13.jpg" width="100%">
+		<br><br><br><br><br><br><br><br>
+			<img src="img/14.jpg" width="100%">
+			<br><br><br><br><br><br><br><br>
+			<img src="img/15.jpg" width="100%">
+		
+		</div><br><br><br><br><br><br><br><br><br><br><br><br>
+ <div id="sss">
+	<div id="aaa">
+		<br><br>
+		<p>© 2018 VIGA Corporation</p><br><br>
+<p>All rights reserved. 沪ICP备17003747号</p><br><br>
+ <p>沪公网安备 31010402000318号</p>
+
+</div> <div id="bbb"><img src="img/bottom.png"></div>
+</div>
+<style>
+*{ margin:0; padding:0; list-style:none;}
+.lanrenzhijia_top{ width:50px; height:50px; position:fixed; right:30px; bottom:30px; z-index:9999; display:none; background:url(http://demo.lanrenzhijia.com/2014/scrollTop1120/images/lanren.gif) no-repeat center center #D16059;}
+</style>
+<a href="javascript:;" class="lanrenzhijia_top"></a>
+<script src="http://www.lanrenzhijia.com/ajaxjs/jquery.min.js"></script>
+<script>
+$(function(){
+	$(window).scroll(function(){
+		var _top = $(window).scrollTop();
+		if(_top>300){
+			$('.lanrenzhijia_top').fadeIn(600);
+		}else{
+			$('.lanrenzhijia_top').fadeOut(600);
+		}
+	});
+	$(".lanrenzhijia_top").click(function(){
+		$("html,body").animate({scrollTop:0},500);
+	});
+});
+</script>
+
+	</body>
+</html>
